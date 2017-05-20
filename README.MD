@@ -12,8 +12,13 @@ _The experiments have been carried out with a group of 30 volunteers within an a
 
 _The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain._
 
+### What you find in this repository
+* `CodeBook.md`: information about raw and tidy data set and elaboration made to transform them
+* `README.md`: this file
+* `run_analysis.R`: R script to transform raw data set in a tidy one
+
 ### My Code
-The R script, `run_analysis.R`, does the following:
+The R script called `run_analysis.R` that does the following
 
 * Download the dataset if it does not already exist in the working directory
 * Load the activity and feature info
